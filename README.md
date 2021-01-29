@@ -10,15 +10,15 @@ URL to PUT to | The URL which wil be called for each event of all devices. The U
 The data that will be send is a simple JSON object:
 ```
 {
-	 device: <ID of device (int)>,
-	 instance: <Device instance (int)>,
-	 commandClass: <Command class (int)>,
-	 title: <Title of device (string)>,
-	 room: <Location of device (string)>,
-	 vDevId: <ID of device (string)>
-    type: <Type of device (string)>,
-    lastLevel: <Last known level of device (string|int)>,
-    level: <Level of device (string|int)>,
-    modificationTime: <Timestamp of event (int)>
+   device: <ID of device (int)>,
+   instance: <Device instance (int)>,
+   commandClass: <Command class (int)>,
+   title: <Title of device (string)>,
+   room: <Location of device (string)>,
+   vDevId: <ID of device (string)>
+   type: <Type of device (string)>,
+   lastLevel: <Last known level of device (string|int)>,
+   level: <Level of device (string|int)>,
+   modificationTime: <Timestamp of event (int)>
 }
 ```

@@ -1,0 +1,6 @@
+{
+    "m_title" : "HTTP Bridge",
+    "m_descr" : "Publishes all 'change:metrics:level' events of all devices to a HTTP-Server using the PUT method. This can be used to build bridges to other ecosystems.<br />For a more detailed description with examples please visit <a href='https://github.com/av01d/zway-http-bridge'>https://github.com/av01d/zway-http-bridge</a>.",
+    "fields_url_label": "URL to PUT to",
+    "fields_url_helper": "Complete URL with schema. Using HTTPS is strongly recommended."
+}
